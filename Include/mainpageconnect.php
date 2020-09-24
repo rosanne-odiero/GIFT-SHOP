@@ -1,4 +1,5 @@
 <?php
+//main connection 
 /* Attempt MySQL server connection. Assuming you are running MySQL
 server with default setting (user 'root' with no password) */
 $mysqli = new mysqli("localhost", "root", "toor", "Giftit");
@@ -23,3 +24,4 @@ $mysqli->close();
  	$cart_id=real_escape_string($_COOKIE[CART_COOKIE]);
  }
 ?>
+
